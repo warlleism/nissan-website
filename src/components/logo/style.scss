@@ -1,0 +1,28 @@
+.logo {
+    top: 0;
+    z-index: 7;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+    position: fixed;
+    padding: 20px 30px;
+    transition: .5s ease-in-out;
+    background-color: #0000000c;
+    font-family: 'Inconsolata', monospace;
+}
+
+.logo {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow:
+        1px -1px 0 #fff,
+        2px -2px 0 #24242423,
+        3px -3px 0 #24242423,
+        4px -4px 0 #24242423,
+        5px -5px 0 #24242423,
+
+}
