@@ -16,7 +16,8 @@ const Navbar = () => {
 
 
             <div className="icon">
-                <Link to={"/car"}>
+
+                <Link to={"/"}>
                     <span class="material-symbols-outlined">
                         home
                     </span>
@@ -27,7 +28,7 @@ const Navbar = () => {
                         directions_car
                     </span>
                 </Link>
-                <Link to={"/car"}>
+                <Link to={"/buy"}>
                     <span class="material-symbols-outlined">
                         shopping_cart
                     </span>

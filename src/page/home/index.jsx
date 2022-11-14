@@ -5,7 +5,6 @@ import './style.scss'
 
 const Home = () => {
 
-
     useEffect(() => {
         setTimeout(() => {
             A()
@@ -13,14 +12,14 @@ const Home = () => {
     }, [])
 
     function A() {
-        const data = document?.getElementById('#car')
+        const data = document?.getElementById('car')
         data.style.filter = 'brightness(80%)'
     }
 
     return (
         <>
             <Navbar />
-            <div className="home-page" id="#car">
+            <div className="home-page" id="car">
                 <Logo />
                 <div className="container-marca">
                     <div>THE</div>
