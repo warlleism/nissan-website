@@ -27,7 +27,7 @@ const Car = (props) => {
                     </div>
                     <div className='show-car'>
                         <div className='circle' style={{ left: props.left ? props.left : null, top: props.top ? props.top : null }}></div>
-                        <img className='car-img' src={props.img} style={{ transform: props.scale ? "scaleX(-1)" : "scaleX(1)", width: props.width ? props.width : "100%", left: props?.leftCar }} />
+                        <img className='car-img' src={props.img} style={{ transform: props.scale ? "scaleX(-1)" : "scaleX(1)" }} />
                         <img className='poste-img' src={require('../../image/poste.png')} style={{ left: props.poste ? props.poste : null }} />
                     </div>
                 </div>
