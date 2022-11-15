@@ -59,8 +59,8 @@ const Buy = () => {
                     </div>
                 </div>
 
-                <div className='container-info' style={{ transform: "scale(-1,1)" }}>
-                    <div className='desc'>
+                <div className='container-info rigth' style={{ transform: "scale(-1,1)" }}>
+                    <div className='desc rigth'>
                         <div className='bar' id='bar2'></div>
                         <div style={{ transform: "scaleX(-1)" }}>Uma experiência de direção única</div>
                         <div style={{ transform: "scaleX(-1)" }}>Você vai viver uma experiência de mobilidade completamente nova, com um carro 100% elétrico. E tem mais: seu Nissan LEAF vem equipado com os sistemas de assistência de condução mais avançados, surpreendentes em cada detalhe. Você está pronto para acelerar no mundo dos elétricos?</div>
@@ -81,8 +81,8 @@ const Buy = () => {
                     </div>
                 </div>
 
-                <div className='container-info' style={{ transform: "scale(-1,1)" }}>
-                    <div className='desc'>
+                <div className='container-info rigth' style={{ transform: "scale(-1,1)" }}>
+                    <div className='desc rigth'>
                         <div className='bar' id='bar4'></div>
                         <div style={{ transform: "scaleX(-1)" }}>Um design 100% incrível</div>
                         <div style={{ transform: "scaleX(-1)" }}>Só de olhar, você já vai perceber como o design do Nissan LEAF está incrível. Você vai ter linhas sofisticadas e ousadas, com uma poderosa grade V-Motion, rodas esportivas com estilo único e um novo logo 100% incrível.</div>

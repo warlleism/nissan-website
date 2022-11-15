@@ -64,6 +64,14 @@
         display: flex;
         flex-direction: column;
 
+        .rigth {
+            transform: scale(1, 1) !important;
+
+            .rigth {
+                transform: scaleX(-1) !important;
+
+            }
+        }
 
         .container-info {
             width: 100%;
@@ -72,9 +80,16 @@
             margin-top: 100px;
             flex-direction: column;
 
+
+
             .desc {
-                text-align: center;
                 width: 100%;
+                text-align: center;
+
+                div:nth-child(2) {
+                    width: 100% !important;
+                }
+
 
                 .bar {
                     display: none;
