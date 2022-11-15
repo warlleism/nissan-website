@@ -2,12 +2,12 @@
     right: 0;
     z-index: 9;
     width: 80px;
-    height: 6vh;
-    transition: 1s ease-in-out;
+    height: 7vh;
     display: flex;
     position: fixed;
     align-items: center;
     flex-direction: column;
+    transition: 1s ease-in-out;
     justify-content: space-around;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -18,8 +18,8 @@
     }
 
     span {
-        display: none;
         opacity: 0;
+        display: none;
         color: #fff;
         padding: 10px;
         cursor: pointer;
@@ -40,7 +40,7 @@
         height: 20px;
         display: flex;
         padding: 13px;
-        margin-top: 3px;
+        margin-top: 8px;
         cursor: pointer;
         border-radius: 100%;
         align-items: flex-end;
@@ -100,5 +100,51 @@
         flex-direction: column;
         justify-content: space-between;
 
+    }
+}
+
+@media screen and (max-width:1025px) {
+
+    .navbar {
+    
+        .login-logout{
+            height: 120px;
+        }
+    }
+}
+
+@media screen and (max-width: 736px) {
+
+    .navbar {
+        .menu-bar {
+            animation: none;
+        }
+
+        span {
+            font-size: 1.6rem;
+            padding: 2px !important;
+        }
+
+        .login-logout{
+            height: 90px;
+        }
+    }
+}
+
+@media screen and (max-width: 412px) {
+
+    .navbar {
+        .menu-bar {
+            animation: none;
+        }
+
+        span {
+            font-size: 2rem;
+            padding: 5px !important;
+        }
+
+        .login-logout{
+            height: 100px;
+        }
     }
 }

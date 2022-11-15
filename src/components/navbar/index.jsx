@@ -24,7 +24,7 @@ const Navbar = (props) => {
                 itens[i].style.display = 'none'
                 itens[i].style.opacity = 0
             }
-            menu.style.height = '6vh'
+            menu.style.height = '7vh'
             setCont(cont - 1)
         } else {
             menu.style.height = '100vh'
