@@ -44,7 +44,7 @@ const Buy = () => {
 
     return (
         <>
-            <Logo color={"black"} />
+            <Logo />
             <Navbar heigth={"100vh"} />
             <div className='buy-main-container' id='car'>
 

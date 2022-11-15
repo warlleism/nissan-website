@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from 'react-router-dom';
 import './style.scss'
 
-const Logo = (props) => {
+const Logo = () => {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -15,7 +15,7 @@ const Logo = (props) => {
     return (
         <Link to={"/"}>
             <div className="logo" id="logo">
-                <p style={{ color: props?.color }}>NISSAN</p>
+                <p>NISSAN</p>
             </div>
         </Link>
 

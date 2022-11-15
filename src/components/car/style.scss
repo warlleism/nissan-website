@@ -78,6 +78,11 @@
     }
 }
 
+.car-main-container-mobile {
+    display: none;
+}
+
+
 @media screen and (max-width: 1718px) {
 
     .car-main-container {
@@ -127,9 +132,6 @@
     }
 }
 
-.car-main-container-mobile {
-    display: none;
-}
 
 @media screen and (max-width: 1286px) {
 
@@ -175,6 +177,8 @@
     .car-main-container-mobile {
         width: 100vw;
         display: block;
+        filter: brightness(0%);
+
 
         .car-mobile {
             width: 90%;
@@ -234,7 +238,7 @@
 
         .car-mobile {
 
-            
+
             .neon {
                 top: 43%;
             }
@@ -270,6 +274,7 @@
         }
     }
 }
+
 @media screen and (max-width: 571px) {
     .car-main-container-mobile {
 
@@ -286,6 +291,7 @@
         }
     }
 }
+
 @media screen and (max-width: 490px) {
     .car-main-container-mobile {
 
@@ -297,6 +303,7 @@
         }
     }
 }
+
 @media screen and (max-width: 393px) {
     .car-main-container-mobile {
 
@@ -309,9 +316,11 @@
             div:nth-child(1) {
                 width: 60%;
             }
+
             div:nth-child(2) {
                 width: 60%;
             }
+
             .car-img-mobile {
                 width: 80%;
             }
