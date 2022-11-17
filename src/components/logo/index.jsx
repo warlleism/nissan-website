@@ -7,8 +7,7 @@ const Logo = () => {
     useEffect(() => {
         window.addEventListener("scroll", () => {
             let data = document?.getElementById('logo')
-            const dados = window.scrollY > 100 ? data.style.backgroundColor = '#00000056' : data.style.backgroundColor = '#0000001e'
-
+            const dados = window.scrollY > 100 ? data.style.background = "linear-gradient(to left, #1c1b1b0e 50%, #000000bb)" : data.style.background = "linear-gradient(to left, #1c1b1b25 50%, #00000065)";
         })
     }, [])
 

@@ -65,7 +65,7 @@ const Navbar = (props) => {
                 </Link>
                 <Link to={"/buy"}>
                     <span id="icones" className="material-symbols-outlined" >
-                        shopping_cart
+                        info
                     </span>
                 </Link>
                 <Link to={"/car"}>
